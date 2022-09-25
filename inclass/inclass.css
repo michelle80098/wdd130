@@ -1,0 +1,45 @@
+body{background-color: aquamarine;}
+
+h1{ 
+    color:white;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 25px;
+    border: 2px solid #fff700;
+    /* ff0000 hexadecimal 
+    first two digits is red, middle two is green, last two is blue*/
+    /* margin: 50px, 100px; */
+    /* first number top and bottom, second number is left and right  */
+    margin: 10px, 100px, 10px, 20px;
+    /* top right bottom left */
+    }
+
+h2{
+    color:blue;
+    background-color: brown;
+}
+p {
+    width: 500px;
+    margin: 15px auto;
+    /* place it in the middle of the screen 
+    to use auto needs to have a width */
+}
+.wider {
+    width: 700px;
+    /* assign the width to the class of this 
+    a class is more specific than the element
+    the wider class is more specific than a paragraph */
+    color: beige;
+    line-height: 1.5em;
+    /* space between up and down  */
+}
+#myname {
+    /* id and a class double specific
+    id 
+    class
+    element */
+    color: aqua;
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+
+}
